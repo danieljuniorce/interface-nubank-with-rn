@@ -42,7 +42,7 @@ export default function Menu({ translationY }) {
           <NavText>Configurar Cartão</NavText>
         </NavItem>
         <NavItem>
-          <Icon name="smartfone" size={20} color="#fff" />
+          <Icon name="smartphone" size={20} color="#fff" />
           <NavText>Configurações</NavText>
         </NavItem>
       </Nav>
