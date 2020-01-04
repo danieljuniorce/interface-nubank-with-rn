@@ -1,6 +1,15 @@
 import React from 'react';
-import {View} from 'react-native';
+import { StatusBar } from 'react-native';
+
+import Main from './pages/Main';
+
+import './config/ReactotronConfig';
 
 export default function App() {
-  return <View />;
+  return (
+    <>
+      <StatusBar backgroundColor="#8b10ae" barStyle="light-content" />
+      <Main />
+    </>
+  );
 }
